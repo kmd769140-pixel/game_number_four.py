@@ -1,0 +1,20 @@
+               how to delete file permanently
+
+1.git rm -r <file-name>//sei file ke prothome delete korte hobe
+2.git commit -m "delete <file-name>"//permanently delete hoye zabe
+
+
+                untracked←→staged←→tracked
+
+       (((git init diye hidden file banate hoi)))
+1.git add <file-name>//file staged korbe
+2.git commit -m "add <file-name>"//file tracked korbe
+
+        ((back korbe ki korle))
+1.git rm --cached <file-name>//tracked to staged to untracked
+
+
+                how to sent file git→github
+1.git add <file-name>//file staged korbe
+2.git commit -m "add <file-name>"//file tracked korbe
+3.
