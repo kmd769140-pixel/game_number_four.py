@@ -78,10 +78,29 @@ flake8 $files
 3.git config --list//user details dekhabe
 
 
-                            needed command
+                            log command
 1.git log//kon somoi modefy kora hoye ta dekhai
-2.git diff//modefy file doitar modde update dekhai(commit er age dekhte hobe) 
-3.git show <commit-no>:<file-name>//commit no file dekhai
-4.git checkout <commit-no> -- <file-name>//sei ager file dekhai . back korte nicher command
-5.git checkout <new-commit-no> -- <file-name>//new commit file e zabe. nicher command taw deya zai
-6.git checkout <branch-name> -- *
+2.git log -p -1//1st no commit er sob o diff and compare dekhai. -2 dile 2nd , -3 dile 3rd,.........
+3.git log --stat//file er commit no and summarey dekhai
+4.git log --stat//sodo sei file er zonno 
+5.git log --pretty=oneline//ek line e log er sob dekhai
+6.git show <commit-no>:<file-name>//commit no file dekhai
+7.git log -S "<name>"//<name> zekhane ace tar commit dekhai***
+
+
+                            ager file dekhte
+3.git diff//modefy file doitar modde update dekhai(commit er age dekhte hobe)
+5.git checkout <commit-no> -- <file-name>//sei ager file dekhai . back korte nicher command
+6.git checkout <new-commit-no> -- <file-name>//new commit file e zabe. nicher command taw deya zai
+7.git checkout <branch-name> -- *//sob file er zonno
+
+                            git restore
+1.git restore . //sei file er update er ager obostha dekhai(commit er ager) sob file
+2.git restore <file-name>//sodo sei file er zonno
+3.git restore --staged <file-name>//file staged theke untracked e asbe
+4.git restore --staged .//sob file er zonno
+5.git restore --worktree <file-name>//bhol songshodon kore ager file e niye anbe
+6.git restore --worktree .//sob file er zonno
+
+                            git reset
+1.
