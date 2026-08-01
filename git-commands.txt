@@ -76,3 +76,9 @@ flake8 $files
 1.git config --global user.name "<user-name>"//user name set korbe
 2.git config --global user.email "<user-email>"//user email set korbe
 3.git config --list//user details dekhabe
+
+
+                            needed command
+1.git log//kon somoi modefy kora hoye ta dekhai
+2.git diff//modefy file doitar modde update dekhai(commit er age dekhte hobe) 
+3.git 
