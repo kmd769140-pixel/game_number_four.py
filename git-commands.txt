@@ -8,13 +8,71 @@
 
        (((git init diye hidden file banate hoi)))
 1.git add <file-name>//file staged korbe
-2.git commit -m "add <file-name>"//file tracked korbe
+2.git add *//zoto file ace sob staged hobe
+3.git commit -m "add <file-name>"//file tracked korbe
 
-        ((back korbe ki korle))
+                    back korbe ki korle
 1.git rm --cached <file-name>//tracked to staged to untracked
 
 
                 how to sent file git→github
+0.git init//korle .git name e hidden file toiri hobe (file:exclude)
 1.git add <file-name>//file staged korbe
 2.git commit -m "add <file-name>"//file tracked korbe
-3.
+3.//make a new reposetory in git
+4.git remote add origin <url>//git theke copy kore ekhane command daw
+5.//git e setting e giye token banaw then token copy koro
+6.git remote set-url origin <url reset koro>//ekhane url reset korte hobe
+7.git push -u origin master//sei url er repository te amar code ti zabe
+
+
+                     set url
+1.git remote -v//url thakle ta dekhai
+2.git remote add origin <url>//url add hobe
+3.git remote remove origin//url remove hobe
+4.git remote set-url <set-the-url>//url ke reset kora zai
+5.git remote rename origin <new-name>//remote er name poriborton hobe (remote→<new-name>)
+6.git remote show origin//remote er bistarito information dekhte
+
+
+                     delete file restore
+1.git restore <file-name>//delete file restore korte 
+
+
+                     push command
+1.git push -u origin master//url mene sei repo te code github e zabe
+ 
+
+                     branch command
+1.git branch//branch er name dekhai
+2.git branch <new-branch-name>//noton branch name set hobe
+3.git switch <new-branch-name>//<new-branch-name> e branch shift korbe
+4.git checkout <new-branch-name>//<new-branch-name> e branch shift korbe
+5.git push origin <new-branch-name>//<new-branch-name> branch ke github e add korbe url mene
+6.git branch -d <branch-name>//<brsnch-name>delete hoye zabe
+7.git push origin --delete <origin-brannch>//origin branch dlete hoye zabe
+8.git branch -r//remote branch dekhai
+9.git branch -a//both branch dekhai
+10.git push origin <new-branch-name>//github e noton branch add hobe
+
+
+                     debuging pythin code
+1.pip install flake8//flake8 downloade korte hobe
+2.python -m flake8 <file-name>//file debuging korbe ar kothai bhol ace ta bole dibeexit
+
+                     pre-commit une 
+1.//show (.git) using setting search use(file:exclude) to visible .git
+2.//goto .git then goto hooks make file (pre-commit)
+3.pip install flake8//install flake8 for debuging 
+
+4.files=$(git diff --cached --name-only --diff-filter=ACM | grep'\.py$')
+flake8 $files 
+
+//write this command
+5.chmod 744 <4.no file name>//4 no e ze file banano holo ta rwx er permission deya
+6.//now write programe
+
+                            set user name and email
+1.git config --global user.name "<user-name>"//user name set korbe
+2.git config --global user.email "<user-email>"//user email set korbe
+3.git config --list//user details dekhabe
