@@ -81,4 +81,7 @@ flake8 $files
                             needed command
 1.git log//kon somoi modefy kora hoye ta dekhai
 2.git diff//modefy file doitar modde update dekhai(commit er age dekhte hobe) 
-3.git 
+3.git show <commit-no>:<file-name>//commit no file dekhai
+4.git checkout <commit-no> -- <file-name>//sei ager file dekhai . back korte nicher command
+5.git checkout <new-commit-no> -- <file-name>//new commit file e zabe. nicher command taw deya zai
+6.git checkout <branch-name> -- *
