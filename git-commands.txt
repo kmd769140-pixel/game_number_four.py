@@ -15,7 +15,7 @@
 1.git rm --cached <file-name>//tracked to staged to untracked
 
 
-                how to sent file git→github
+                how to sent file (git)→(github)
 0.git init//korle .git name e hidden file toiri hobe (file:exclude)
 1.git add <file-name>//file staged korbe
 2.git commit -m "add <file-name>"//file tracked korbe
@@ -24,6 +24,13 @@
 5.//git e setting e giye token banaw then token copy koro
 6.git remote set-url origin <url reset koro>//ekhane url reset korte hobe
 7.git push -u origin master//sei url er repository te amar code ti zabe
+             
+             
+              how to colne file (github)→(git)
+1.git clone <code-https-url>// github er nirdisto file ta ke copy kore git e anbe
+
+              copy (other-github)→(my-github)
+1.frok→create fork// oonner github theke code copy hoye nizer github account e asbe
 
 
                      set url
