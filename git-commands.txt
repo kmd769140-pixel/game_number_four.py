@@ -27,7 +27,7 @@
              
              
               how to colne file (github)→(git)
-1.git clone <code-https-url>// github er nirdisto file ta ke copy kore git e anbe
+1.git clone <code-https-url>// github er nirdisto file ta ke copy kore git e anbe(age oikhaner <code> er copy korte hobe)
 
               copy (other-github)→(my-github)
 1.frok→create fork// oonner github theke code copy hoye nizer github account e asbe
